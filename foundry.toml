@@ -22,7 +22,6 @@
 [etherscan]
   arbitrum = { key = "${API_KEY_ARBISCAN}" }
   avalanche = { key = "${API_KEY_SNOWTRACE}" }
-  bnb_smart_chain = { key = "${API_KEY_BSCSCAN}" }
   gnosis_chain = { key = "${API_KEY_GNOSISSCAN}" }
   goerli = { key = "${API_KEY_ETHERSCAN}" }
   mainnet = { key = "${API_KEY_ETHERSCAN}" }
@@ -50,4 +49,4 @@
   mainnet = "https://eth-mainnet.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
   optimism = "https://optimism-mainnet.infura.io/v3/${API_KEY_INFURA}"
   polygon = "https://polygon-mainnet.infura.io/v3/${API_KEY_INFURA}"
-  sepolia = "https://sepolia.infura.io/v3/${API_KEY_INFURA}"
+  sepolia = "https://eth-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY_SEPOLIA}"
